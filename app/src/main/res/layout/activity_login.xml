@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/handshake"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...topnotch service"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="170dp"/>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/l_purple"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Phone"/>
+
+    <EditText
+        android:id="@+id/et_pin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:paddingStart="10dp"
+        android:background="@color/l_purple"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:hint="PIN"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:background="@color/l_purple"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="L O G I N"/>
+
+</LinearLayout>
